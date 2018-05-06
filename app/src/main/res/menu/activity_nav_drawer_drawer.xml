@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+			android:id = "@+id/nav_news"
+            android:icon="@drawable/ic_menu_camera"
+			android:title = "@string/navDrawer.nav_news.title" />
+        <item
+			android:id = "@+id/nav_donate"
+			android:icon = "@drawable/ic_menu_donate"
+			android:title = "@string/navDrawer.nav_donate.title" />
+        <item
+			android:id = "@+id/nav_events"
+            android:icon="@drawable/ic_menu_slideshow"
+			android:title = "@string/navDrawer.nav_events.title" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Tools" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Profile" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_menu_logout"
+                android:title="Logout" />
+        </menu>
+    </item>
+</menu>

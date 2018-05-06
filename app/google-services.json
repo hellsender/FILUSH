@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "712900129301",
+    "firebase_url": "https://filush-6b9a7.firebaseio.com",
+    "project_id": "filush-6b9a7",
+    "storage_bucket": "filush-6b9a7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:712900129301:android:7269b0c88eee776a",
+        "android_client_info": {
+          "package_name": "com.example.kevinxu.googlemaap"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "712900129301-rbsgnuqdvghkrs09cn85pr77ett8g1ro.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBkxI56VheC_An5ej_XKbRHGepakxmSdAg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

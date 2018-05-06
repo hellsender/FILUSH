@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="300dp"
+    android:layout_height="400dp"
+    android:background="@drawable/bg_color"
+    android:padding="5dp"
+    android:layout_gravity="center">
+
+    <TextView
+        android:id="@+id/txtClose"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="end"
+        android:background="@drawable/cerclebackground"
+        android:gravity="center"
+        android:text="X"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtClose"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="28dp"
+        android:text="ADD SOMETHING"
+        android:textColor="@color/white"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/btnCreate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="18dp"
+        android:background="@drawable/buttonstyle"
+        android:text="NEW COMFORT ROOM"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/btnComment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/btnCreate"
+        android:layout_alignLeft="@+id/btnCreate"
+        android:layout_alignRight="@+id/btnCreate"
+        android:layout_alignStart="@+id/btnCreate"
+        android:layout_below="@+id/btnCreate"
+        android:layout_gravity="center"
+        android:layout_marginTop="18dp"
+        android:background="@drawable/buttonstyle"
+        android:text="COMMENTS"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/btnRate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/btnComment"
+        android:layout_alignLeft="@+id/btnComment"
+        android:layout_alignRight="@+id/btnComment"
+        android:layout_alignStart="@+id/btnComment"
+        android:layout_below="@+id/btnComment"
+        android:layout_gravity="center"
+        android:layout_marginTop="13dp"
+        android:background="@drawable/buttonstyle"
+        android:onClick="Close"
+        android:text="RATE"
+        android:textColor="@color/white" />
+
+</RelativeLayout>
